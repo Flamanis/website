@@ -1,2 +1,0 @@
-release: npm run build
-web: HOST=0.0.0.0 PORT=$PORT node ./dist/server/entry.mjs
