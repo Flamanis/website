@@ -7,13 +7,14 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "start": "PORT=$PORT node ./dist/server/entry.mjs"
+    "start": "node run-server.mjs"
   },
   "dependencies": {
     "@astrojs/node": "^9.2.2",
     "@astrojs/preact": "^4.1.0",
     "@astrojs/rss": "^4.0.12",
     "astro": "^5.9.0",
+    "fastify": "^5.3.3",
     "preact": "^10.26.4"
   }
 }
