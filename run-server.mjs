@@ -13,4 +13,4 @@ await app
   .register(fastifyMiddie);
 app.use(ssrHandler);
 
-app.listen({ port: process.env.PORT || 8080 });
+app.listen({ port: process.env.PORT || 8080 , host: '0.0.0.0'});
